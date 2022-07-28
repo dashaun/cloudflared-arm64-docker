@@ -1,0 +1,15 @@
+apiVersion: vendir.k14s.io/v1alpha1
+kind: Config
+minimumRequiredVersion: 0.8.0
+directories:
+
+  #! Product release files
+  - path: vendir
+    contents:
+      - path: .
+        githubRelease:
+          slug: cloudflare/cloudflared
+          tag: 2022.7.1
+          assetNames:
+            - cloudflared-linux-arm64
+          disableAutoChecksumValidation: true
