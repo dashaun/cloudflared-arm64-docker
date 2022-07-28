@@ -1,6 +1,8 @@
 # cloudflared-arm64-docker
 'cloudflared' that runs on Raspberry Pi/ARM64
 
+[cloudflared](https://github.com/cloudflare/cloudflared) - Cloudflare's command-line tool and agent
+
 ### Use
 
 ```bash
@@ -26,3 +28,15 @@ docker build -t dashaun/cloudflared-linux-arm64:2022.7.1 .
 docker push dashaun/cloudflared-linux-arm64:2022.7.1
 ```
 > Requires [Carvel Vendir](https://carvel.dev/vendir/)
+
+### Contributing
+Please open an issue or submit a pull request with any features, fixes, or changes.
+
+https://github.com/dashaun/cloudflared-arm64-docker/issues
+
+### Acknowledgments
+Original software is by Cloudflare: https://github.com/cloudflare/cloudflared
+
+### License
+dashaun/cloudflared-arm64-docker: MIT License
+cloudflare/cloudflared: CLOUDFLARED LICENSE
