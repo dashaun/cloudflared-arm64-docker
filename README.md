@@ -38,5 +38,5 @@ https://github.com/dashaun/cloudflared-arm64-docker/issues
 Original software is by Cloudflare: https://github.com/cloudflare/cloudflared
 
 ### License
-dashaun/cloudflared-arm64-docker: MIT License
-cloudflare/cloudflared: CLOUDFLARED LICENSE
+- dashaun/cloudflared-arm64-docker: MIT License
+- cloudflare/cloudflared: CLOUDFLARED LICENSE
