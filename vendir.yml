@@ -9,7 +9,7 @@ directories:
       - path: .
         githubRelease:
           slug: cloudflare/cloudflared
-          tag: 2022.7.1
+          tag: 2022.11.0
           assetNames:
             - cloudflared-linux-arm64
           disableAutoChecksumValidation: true
